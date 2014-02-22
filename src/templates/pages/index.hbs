@@ -1,0 +1,12 @@
+---
+title: Index
+---
+<div class="kilter-main-container">
+    {{#each site.images}}
+        <div class="kilter-square-container {{name}}">
+            <div class="kilter-image-container">
+                <img class="kilter-image" src="{{imgSrc}}" />
+            </div>
+        </div>  
+    {{/each}}
+</div>

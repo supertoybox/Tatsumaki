@@ -1,0 +1,45 @@
+{
+    "social": [
+        {
+            "name": "facebook",
+            "link": "http://www.facebook.com/kilterapp",
+            "imgSrc": "images/facebook-icon.png"
+        },
+        {
+            "name": "twitter",
+            "link": "",
+            "imgSrc": "images/twitter-icon.png"
+        },
+        {
+            "name": "google",
+            "link": "",
+            "imgSrc": "images/google-plus-icon.png"
+        }
+    ],
+    "images": [
+        {
+            "name": "boxTL",
+            "imgSrc": "images/KILTER-Menu.png"
+        },
+        {
+            "name": "boxTC",
+            "imgSrc": "images/KILTER-Feed.png"
+        },
+        {
+            "name": "boxTR",
+            "imgSrc": "images/KILTER-Workouts.png"
+        },
+        {
+            "name": "boxBL",
+            "imgSrc": "images/KILTER-Activity.png"
+        },
+        {
+            "name": "boxBC",
+            "imgSrc": "images/KILTER-Summary.png"
+        },
+        {
+            "name": "boxBR",
+            "imgSrc": "images/KILTER-Input.png"
+        }
+    ]
+}

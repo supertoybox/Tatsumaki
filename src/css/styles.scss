@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+$blue-color1: #165683;
+$blue-color2: #10466B;
+$blue-color3: #155E91;
+$blue-color4: #0D3856;
+$blue-color5: #1B77B8;
+$blue-color6: #24A1f7;
+
+html, body { 
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+}
+
+header {
+    position: absolute;
+    right: 0%;
+    margin-top: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    
+    a {
+        opacity: 0.7;
+        margin-right: 8px;
+        
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.kilter-main-container {
+    width: 100%;
+    height: 100%;
+}
+
+.kilter-square-container {
+    width: 33.333%;
+    height: 50%;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.kilter-image-container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    
+    -webkit-transform: translateY(-30%) translateX(-50%);
+    -mozilla-transform: translateY(-30%) translateX(-50%);
+    -o-transform: translateY(-30%) translateX(-50%);
+    -ms-transform: translateY(-30%) translateX(-50%);
+    transform: translateY(-30%) translateX(-50%);    
+}
+
+.boxTL {
+    background: $blue-color1;
+}
+
+.boxTC {
+    background: $blue-color2;
+}
+
+.boxTR {
+    background: $blue-color3;
+}
+
+.boxBL {
+    background: $blue-color4;
+}
+
+.boxBC {
+    background: $blue-color5;
+}
+
+.boxBR {
+    background: $blue-color6;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (max-width: 768px) {
+    .kilter-square-container {
+        width: 100%;    
+    }
+}
