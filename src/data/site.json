@@ -16,6 +16,9 @@
             "imgSrc": "images/google-plus-icon.png"
         }
     ],
+    "main": {
+        "imgSrc": "images/KILTER-Menu.png"
+    },
     "images": [
         {
             "name": "boxTL",
