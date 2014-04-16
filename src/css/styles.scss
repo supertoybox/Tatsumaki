@@ -65,41 +65,41 @@ header {
     }
     
     .kilter-download-button {
-        width: 40%;
+        //width: 40%;
         height: 70px;        
         float: left;
 //        border: #FFF 2px solid;        
         box-sizing: border-box;
         -moz-box-sizing: border-box;    
         text-align: center;
-        padding: 24px 0;
+        padding: 4px 0;
         margin-right: 10px;
 
-        a {
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-            font-size: 16px;
-            color: #FFF;
-            text-transform: uppercase;
-            text-decoration: none;
-        }
-        
-        &:hover {
-            cursor: pointer;
-            background: #FFF;
-            
-            a {
-                color: #1F1F21;
-            }
-        }
+//        a {
+//            font-family: Arial, sans-serif;
+//            font-weight: bold;
+//            font-size: 16px;
+//            color: #FFF;
+//            text-transform: uppercase;
+//            text-decoration: none;
+//        }
+//        
+//        &:hover {
+//            cursor: pointer;
+//            background: #FFF;
+//            
+//            a {
+//                color: #1F1F21;
+//            }
+//        }
     }
     
     .kilter-download-ios {
-        background: $blue-color1;
+        //background: $blue-color1;
     }
 
     .kilter-download-android {
-        background: $blue-color2;
+        //background: $blue-color2;
     }
     
     .kilter-image-container {
@@ -210,5 +210,11 @@ header {
         img {
             width: 198px;
         }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .kilter-hero-container {
+        display: none;
     }
 }

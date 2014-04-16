@@ -19,6 +19,10 @@
     "main": {
         "imgSrc": "images/KILTER-Menu.png"
     },
+    "download": {
+        "appStore": "images/app-store.png",
+        "playStore": "images/play-store.png"
+    },
     "images": [
         {
             "name": "boxTL",
